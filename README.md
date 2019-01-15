@@ -1,0 +1,2 @@
+# configRepo
+springCloud config repo
