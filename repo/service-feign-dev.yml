@@ -4,7 +4,7 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
   application:
-    name: service-feignww
+    name: service-feign
 
 eureka:
   client:
