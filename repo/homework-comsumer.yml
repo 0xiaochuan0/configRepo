@@ -1,0 +1,20 @@
+server:
+  port: 8181
+
+spring:
+  application:
+    name: homework-consumer
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+
+#阿里云OSS
+oss:
+  accessKeyId: LTAIIey7GYbMA2sf
+  accessKeySecret: hIdoPxkbmAKbgCoIisCtimV8WbWABX
+  bucketName: erp-img1806
+  endpoint: http://oss-cn-beijing.aliyuncs.com
